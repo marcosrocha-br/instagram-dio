@@ -1,4 +1,4 @@
-## 										Projeto Digital Inovation one
+## Projeto Digital Innovation One
 
-### 															Recriando a página inicial do Instagram
+### Recriando a página inicial do Instagram
 
