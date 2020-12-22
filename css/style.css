@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(243,243, 243);
+    font-family: sans-serif;
+    font-size: 14px;
+}   
+
+a{
+    text-decoration: none;
+}
+
+.cell{
+    padding: 50px;    
+}
+
+.login, .change-user{
+    border: 1px solid lightgray;  
+    background-color: white;
+}
+
+.logo{
+    padding: 15px;
+    text-align: center;
+}
+
+.user{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-img{
+    border-radius: 50px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+.content-right{
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 25%;
+    align-items: center;
+}
+
+.login-button, .remove-button, .change-user, .download-app{
+    text-align: center;
+}
+
+.login-button a{
+    background-color: #0095f6;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.remove-button{
+    line-height: 60px;
+}
+
+.remove-button a, .change-user a{
+    color: #0095f6;
+}
+
+.change-user{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.change-user span{
+    color:rgb(160, 160, 160);
+}
+
+.download-app{
+    padding: 15px;
+}
+
+.download-app span{
+    line-height: 40px;
+}
+.download-app img{
+    margin: 10px;
+}
+
+@media screen and (max-width: 700px){
+    .cell{
+        display: none;
+    }
+
+    .content{
+        margin-top: 10%;
+    }
+
+    .login, .change-user{
+        border: none;
+    }
+
+    body{
+        background-color: white;
+    }
+}
